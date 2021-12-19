@@ -28,9 +28,5 @@ public class TeamController {
 
         team.setMatches(matchRepository.findLatestMatchByTeam(teamName,4));
         return team;
-    }
-
-
-
-    
+    }    
 }
